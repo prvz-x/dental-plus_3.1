@@ -1,0 +1,757 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.top_header_pic img {
+    padding-top: 3px;
+}
+
+.top_header_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_header_des {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_header_icon {
+    width: 30px;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.top_header_icon i {
+    font-size: 30px;
+    color: rgb(246, 145, 101);
+}
+
+.top_header_text h5 {
+    text-transform: capitalize;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(54, 54, 54);
+}
+
+.top_header_text p {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(160, 160, 160);
+}
+
+.main_header {
+    background: rgb(0, 204, 225);
+}
+
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.main_logo {
+    display: none;
+}
+
+.navbar-toggler {
+    padding: 0px;
+}
+
+.navbar-toggler-icon {
+    background: rgb(246, 145, 101);
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    text-transform: uppercase;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    position: relative;
+    z-index: 0;
+    color: rgb(255, 255, 255) !important;
+}
+
+.navbar-light .navbar-nav .nav-link::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: rgb(246, 145, 101);
+    width: 100%;
+    height: 0%;
+    transition: all 0.4s ease-in-out 0s;
+    z-index: -1;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::before {
+    height: 100%;
+    background: rgb(246, 145, 101);
+}
+
+.appoint {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(246, 145, 101);
+    border-radius: 0px;
+    padding: 2px;
+    transform: skew(-18deg, 0deg);
+}
+
+.btn_z {
+    padding: 5px 8px 8px 16px;
+    font-size: 16px;
+    color: rgb(255, 255, 255) !important;
+}
+
+.btn_z i {
+    padding-bottom: 4px;
+    transform: skew(18deg, 0deg);
+}
+
+.appoint a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 16px;
+    transform: skew(18deg, 0deg);
+    color: rgb(255, 255, 255) !important;
+}
+
+.banner {
+    min-height: 82vh;
+    background-image: url("../images/banner_bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_banner {
+    min-height: 82vh;
+    align-items: center;
+    position: relative;
+}
+
+.banner_text h4 {
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 204, 225);
+    padding: 0px 10px;
+}
+
+.banner_text h1 {
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    background: rgb(246, 145, 101);
+    padding: 0px 10px;
+    margin: 10px auto 5px;
+}
+
+.banner_text p {
+    text-transform: capitalize;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 2;
+    color: rgb(99, 99, 99);
+    margin: 5px 0px 24px;
+}
+
+.banner_pic {
+    position: absolute;
+    right: -40px;
+    bottom: 0px;
+    width: 600px;
+}
+
+.btn_x {
+    background: rgb(246, 145, 101);
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    padding: 6px 16px;
+    color: rgb(255, 255, 255) !important;
+}
+
+.btn_y {
+    background: rgb(0, 204, 225);
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    padding: 6px 16px;
+    color: rgb(255, 255, 255) !important;
+}
+
+.header_slider .owl-nav .owl-prev i {
+    display: block;
+    background: rgb(0, 204, 225);
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    padding: 7px;
+}
+
+.header_slider .owl-prev {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+}
+
+.header_slider .owl-nav .owl-next i {
+    display: block;
+    background: rgb(246, 145, 101);
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    padding: 7px;
+}
+
+.header_slider .owl-next {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+}
+
+.header_slider .owl-dots {
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    transform: translateY(-50%);
+}
+
+.header_slider .owl-dots .owl-dot span {
+    display: block;
+    width: 7px;
+    height: 7px;
+    background: rgb(153, 153, 153);
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.header_slider .owl-dots .active span {
+    background: rgb(246, 145, 101);
+}
+
+.dental_agency {
+    position: relative;
+}
+
+.dental_agency_pic {
+    position: absolute;
+    left: 5%;
+    bottom: 0%;
+    transform: translateX(-5%);
+}
+
+.dental_agency_pic img {
+    width: 75%;
+}
+
+.dental_agency_text h1 {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+}
+
+.dental_agency_text p {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(112, 112, 112);
+    margin: 12px auto;
+}
+
+.dental_agency_dic h4 {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    margin: 5px auto 7px;
+}
+
+.dental_agency_dic p {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: rgb(112, 112, 112);
+}
+
+.meet_doctors {
+    background: rgb(249, 249, 249);
+}
+
+.head_text h1 {
+    text-transform: capitalize;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.head_text img {
+    margin: 7px auto;
+}
+
+.head_text p {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(112, 112, 112);
+}
+
+.doc_info {
+    background: rgb(255, 255, 255);
+}
+
+.doc_dec {
+    position: relative;
+}
+
+.doc_dec img {
+    width: 100%;
+    margin: auto;
+}
+
+.doc_dec::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 0%;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.doc_info:hover .doc_dec::before {
+    height: 100%;
+    background: rgba(69, 69, 69, 0.52);
+}
+
+.doc_dec ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.4s ease-in-out 0s;
+    opacity: 0;
+}
+
+.doc_info:hover .doc_dec ul {
+    opacity: 1;
+}
+
+.doc_dec ul li {
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 5px;
+}
+
+.doc_dec li:hover {
+    background: rgb(246, 145, 101);
+}
+
+.doc_dec ul li a {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.doc_info h4 {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin: 10px auto 3px;
+}
+
+.doc_info:hover h4 {
+    color: rgb(246, 145, 101);
+}
+
+.doc_info p {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    color: rgb(153, 153, 153);
+}
+
+.doc_info span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: rgb(0, 204, 225);
+    margin: 20px auto;
+}
+
+.doc_info:hover span {
+    background: rgb(246, 145, 101);
+}
+
+.services_dtl {
+    border: 2px solid rgb(235, 235, 235);
+}
+
+.services_dtl:hover {
+    border: 2px solid rgb(246, 145, 101);
+}
+
+.services_icon {
+    display: flex;
+    align-items: center;
+}
+
+.services_icon img {
+    width: 38px;
+    height: 38px;
+}
+
+.services_icon h4 {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    color: rgb(54, 54, 54);
+    margin-left: 10px;
+}
+
+.services_dtl:hover .services_icon h4 {
+    color: rgb(246, 145, 101);
+}
+
+.services_dtl p {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(112, 112, 112);
+    margin: 20px auto;
+}
+
+.services_more {
+    display: flex;
+    align-items: center;
+}
+
+.services_more h6 {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    color: rgb(112, 112, 112);
+    margin-right: 10px;
+}
+
+.services_dtl:hover .services_more h6 {
+    color: rgb(246, 145, 101);
+}
+
+.services_more a {
+    color: rgb(112, 112, 112);
+}
+
+.services_dtl:hover .services_more a {
+    color: rgb(246, 145, 101);
+}
+
+.pricing_plan {
+    background: rgb(249, 249, 249);
+}
+
+.pricing {
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.pricing:hover {
+    border: 2px solid rgb(246, 145, 101);
+}
+
+.pricing_h h4 {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: rgb(0, 204, 225);
+}
+
+.pricing:hover .pricing_h h4 {
+    color: rgb(246, 145, 101);
+}
+
+.pricing_h p {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(112, 112, 112);
+    margin: 2px auto 20px;
+}
+
+.pricing_c {
+    background: rgb(255, 255, 255);
+    padding: 16px;
+}
+
+.pricing:hover .pricing_c {
+    background: rgb(246, 145, 101);
+}
+
+.pricing_c h1 {
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    font-size: 45px;
+    color: rgb(0, 204, 225);
+}
+
+.pricing:hover .pricing_c h1 {
+    color: rgb(255, 255, 255);
+}
+
+.pricing_c p {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(0, 204, 225);
+}
+
+.pricing:hover .pricing_c p {
+    color: rgb(255, 255, 255);
+}
+
+.pricing_b p {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 2;
+    color: rgb(112, 112, 112);
+    margin: 20px;
+}
+
+.pricing:hover .btn_y {
+    background: rgb(246, 145, 101);
+}
+
+.happy_client {
+    min-height: 55vh;
+    background-image: url("../images/bottom_bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 0;
+}
+
+.happy_client::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: rgba(54, 54, 54, 0.604);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.happy_client .head_text h1 {
+    color: rgb(255, 255, 255);
+}
+
+.happy_client .head_text p {
+    color: rgb(255, 255, 255);
+}
+
+.happy_client_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.happy_client_pic {
+    width: 15%;
+}
+
+.happy_client_slider .owl-nav .owl-prev i {
+    display: block;
+    background: rgb(0, 204, 225);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 6px 10px;
+}
+
+.happy_client_slider .owl-prev {
+    position: absolute;
+    left: -40px;
+    top: 50%;
+}
+
+.happy_client_slider .owl-nav .owl-next i {
+    display: block;
+    background: rgb(246, 145, 101);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 6px 10px;
+}
+
+.happy_client_slider .owl-next {
+    position: absolute;
+    right: -40px;
+    top: 50%;
+}
+
+footer {
+    background: rgb(27, 27, 27);
+}
+
+footer p {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(180, 180, 180);
+    margin: 20px auto 10px;
+}
+
+.footer_icon {
+    display: flex;
+    align-items: center;
+}
+
+.footer_icon a {
+    font-size: 30px;
+    color: rgb(4, 178, 195);
+}
+
+.footer_icon p {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(180, 180, 180);
+    margin-left: 25px;
+}
+
+footer h3 {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 25px;
+}
+
+.footer_pic {
+    display: flex;
+    align-items: center;
+}
+
+.footer_pic img {
+    width: 20%;
+}
+
+.footer_pic p {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(180, 180, 180);
+    margin: 7px 0px 24px 20px;
+}
+
+.footer_pic a {
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(180, 180, 180);
+}
+
+.sign_up {
+    margin: 35px auto;
+}
+
+.sign_up input {
+    background: transparent;
+    border: none;
+    border: 1px solid rgb(153, 153, 153);
+    padding: 5px 24px 9px 10px;
+}
+
+.follow_us {
+    display: flex;
+    align-items: center;
+}
+
+.follow_us h3 {
+    margin-right: 16px;
+    margin-bottom: 3px;
+}
+
+.follow_us ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.follow_us ul li {
+    list-style: none;
+    width: 35px;
+    height: 35px;
+    background: rgb(50, 50, 50);
+    margin-left: 8px;
+    text-align: center;
+}
+
+.follow_us li:hover {
+    background: rgb(246, 145, 101);
+}
+
+.follow_us ul li a {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.footer_btm {
+    background: rgb(22, 22, 22);
+}
+
+.footer_copy h6 {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(114, 114, 114);
+}
+
+.footer_copy a {
+    text-decoration: none;
+    color: rgb(4, 178, 195);
+}

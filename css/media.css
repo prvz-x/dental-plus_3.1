@@ -1,0 +1,101 @@
+@media (max-width: 575px) {
+    .top_header_pic {
+        display: none;
+    }
+
+    .top_header_text h5 {
+        font-size: 16px;
+    }
+
+    .top_header_text p {
+        font-size: 13px;
+    }
+
+    .main_logo {
+        display: inline-block;
+    }
+
+    .main_logo img {
+        width: 75%;
+        padding-bottom: 3px;
+    }
+
+    .appoint {
+        display: none;
+    }
+
+    .banner_pic {
+        display: none;
+    }
+
+    .banner_text {
+        text-align: center;
+        margin: auto;
+    }
+
+    .banner_text h1 {
+        font-size: 40px;
+    }
+
+    .header_slider .owl-nav .owl-prev i {
+        padding: 2px;
+    }
+
+    .header_slider .owl-nav .owl-next i {
+        padding: 2px;
+    }
+
+    .dental_agency_pic {
+        position: inherit;
+        width: 80%;
+        margin: auto auto 16px;
+        text-align: center;
+    }
+
+    .dental_agency_text h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .dental_agency_text p {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .services_dtl p {
+        font-size: 17px;
+        line-height: 2;
+    }
+
+    .pricing {
+        margin-bottom: 16px;
+    }
+
+    .happy_client_pic {
+        width: 20%;
+    }
+
+    .happy_client_slider .owl-nav .owl-prev i {
+        padding: 2px;
+    }
+
+    .happy_client_slider .owl-prev {
+        left: -12px;
+    }
+
+    .happy_client_slider .owl-nav .owl-next i {
+        padding: 2px;
+    }
+
+    .happy_client_slider .owl-next {
+        right: -12px;
+    }
+
+    .footer_pic img {
+        margin-bottom: 16px;
+    }
+
+    .sign_up input {
+        padding: 5px 24px 9px 10px;
+    }
+}
